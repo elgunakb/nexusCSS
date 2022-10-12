@@ -8,3 +8,4 @@ function toggle() {
       sidebar.classList.add(visibleClassName);
     }
   }
+  $().button('toggle');
