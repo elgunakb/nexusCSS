@@ -21,7 +21,7 @@
     <header>
         <div class="container">
             <div class="header">
-                <a href="#"><img class="logo" src="assets/img/logo.png.webp" alt=""></a>
+                <a class="logo1" href="#"><img class="logo" src="assets/img/logo.png.webp" alt=""></a>
 
                 <nav>
                     <ul>
@@ -29,7 +29,7 @@
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#services">SERVICES</a></li>
                         <li class="dropdown">
-                            <a class="dropbtn" href="#">PAGES</a>
+                            <a  class="dropbtn" href="#pages">PAGES</a>
                             <div class="dropdown-content">
                                 <a href="#">PRICING</a>
                                 <a href="#">ELEMENTS</a>
@@ -61,11 +61,12 @@
             <li><a href="#">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#services">SERVICES</a></li>
-            <li><a href="#">PAGES</a></li>
+            <li><a href="#pages">PAGES</a></li>
             <li><a href="#">BLOG</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </div>
     </div>
+
     <!-- CONTENT SECTION 1 -->
 
     <main>
@@ -78,11 +79,13 @@
                             labore et dolore magna aliqua. Ut enim ad minim. sed do eiusmod tempor incididunt.</p>
                         <div class="divButton">
                             <button>Get Started</button>
-                            <button class="button1">Download</button>
+                            <a href="assets/img/welcome.png" download>
+                                <button class="button1">Download</button>
+                            </a>
+                            
                         </div>
-
                     </div>
-                    <div>
+                    <div class="right_content">
                         <img src="assets/img/home-left-1.png.webp" alt="">
                     </div>
                 </div>
@@ -167,6 +170,69 @@
             </div>
 
         </section>
+
+        <!--  SECTION 4 -->
+        <section id="pages" class="section4">
+            <div class="container">
+                <div class="img_slide">
+                    <div id="slider">
+                        <input type="radio" name="slider" id="slide1" checked>
+                        <input type="radio" name="slider" id="slide2">
+                        <input type="radio" name="slider" id="slide3">
+                        <input type="radio" name="slider" id="slide4">
+                        <div id="slides">
+                            <div id="overflow">
+                                <div class="inner">
+                                    <div class="slide slide_1">
+                                        <div class="slide-content">
+                                            <!-- <h2>Slide 1</h2> -->
+                                            <img style="width: 580px;height: 350px;" src="assets/img/label3.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slide slide_2">
+                                        <div class="slide-content">
+                                            <!-- <h2>Slide 2</h2> -->
+                                            <img style="width: 700px;height: 400px;" src="assets/img/label2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="slide slide_3">
+                                        <div class="slide-content">
+                                            <!-- <h2>Slide 3</h2> -->
+                                            <img style="width: 600px;" src="assets/img/xchart.jpg.pagespeed.ic.x1B3Mf6mz8.webp" alt="">                                            
+                                        </div>
+                                    </div>
+                                    <div class="slide slide_4">
+                                        <div class="slide-content">
+                                            <!-- <h2>Slide 4</h2> -->
+                                            <img style="width: 590px;height:310px ;" src="assets/img/label4.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="controls">
+                            <label for="slide1"></label>
+                            <label for="slide2"></label>
+                            <label for="slide3"></label>
+                            <label for="slide4"></label>
+                        </div>
+                        <div id="bullets">
+                            <label for="slide1"></label>
+                            <label for="slide2"></label>
+                            <label for="slide3"></label>
+                            <label for="slide4"></label>
+                        </div>
+                    </div>
+                </div>
+            
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER BOTTOM -->
+
         <footer id="contact">
             <div class="container">
                 <div class="footer_content">
@@ -192,7 +258,7 @@
                     </div>
                 </div>
                 <DIV>
-                    <h4>&copy; 2001-2022 Copyright. All rights reserved. </h4>
+                    <h4>&copy; 2001-2022, Copyright. All rights reserved. </h4>
                 </DIV>
 
             </div>
